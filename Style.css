@@ -1,6 +1,8 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
 }
 
 :root {
@@ -14,8 +16,8 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .main-container {
@@ -23,6 +25,7 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    
 }
 
 a {
@@ -61,7 +64,9 @@ a {
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    
+    
 }
 
 .hebergements-and-populaires section {
@@ -69,6 +74,7 @@ a {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
+    
 }
 
 /****** Hebergements ***********/
@@ -165,3 +171,134 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
 }
+
+
+
+header {
+    
+   
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    
+    
+    }
+
+
+
+
+#Logo-Top {
+
+    width: 60px;
+    height: 19px;
+    margin: 20px 50px;
+
+    }
+
+nav ul {
+
+    display: flex;
+    gap: 20px; 
+    list-style: none;
+
+    }
+
+
+.NavTop{
+    display: inline-block;
+    padding-top: 16px;
+}
+
+.NavTop:hover , .NavTop:focus{
+
+    color: blue;
+    border-top: 1px solid blue;
+}
+
+   
+
+.Description  {
+    
+    margin-bottom: 20px;
+      
+}
+
+
+h2,p {
+    
+    margin: 0;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    gap: 38px;
+  }
+
+  .Bar-R {
+
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -3px;
+    margin-top: 50px;
+    
+    
+  }
+
+  .Bar-R fieldset {
+    display: flex;
+    width: 50px;
+    border: none;
+    
+  }
+  
+  .Bar-R {
+    width: 0;
+    text-align: center;
+    border-top: 2px solid rgb(177, 175, 175) ;
+    border-bottom: 2px solid rgb(168, 165, 165);
+  }
+  
+  .Bar-R input::placeholder {
+    width: 100%;
+    font-weight: 700;
+    font-size: larger;
+    color: black;
+    
+   }
+    
+  
+  .Bar-R i:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: inherit;
+    width: 48px;
+    height: 48px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 15px 0 0 15px;
+  }
+
+  .Bar-Texte {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    color: white;
+    font-weight: 700;
+    border-radius: 0 15px 15px 0;
+    background-color: rgb(1, 88, 218);
+    cursor: pointer;
+    border: none;
+  }
+  
+  
+input{
+
+    border:1px solid rgb(187, 187, 187);
+    text-align: center;
+}
+
+
+
