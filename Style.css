@@ -227,8 +227,16 @@ nav ul {
 h2,p {
     
     margin: 0;
+    display: flex;
+    justify-content: start;
 
 }
+
+p{
+    margin-left: 10px;
+}
+
+
 
 main {
     display: flex;
@@ -289,7 +297,6 @@ main {
     font-weight: 700;
     border-radius: 0 15px 15px 0;
     background-color: rgb(1, 88, 218);
-    cursor: pointer;
     border: none;
   }
   
