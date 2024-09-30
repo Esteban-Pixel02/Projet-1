@@ -318,15 +318,15 @@ nav ul {
 .NavTop{
     display: inline-block;
     padding-top: 16px;
+    border-top: 2px solid transparent;
     
 }
 
 .NavTop:hover {
 
-    
+    border-color: #0065FC;
     color: #0065FC;
-    border-top: 2px solid #0065FC;
-    padding-top: 13.5px;
+    
     
     
     
