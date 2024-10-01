@@ -369,27 +369,27 @@ main {
     gap: 38px;
   }
 
-  .Bar-R {
+  .Bar-research{
     display: flex;
     justify-content: flex-start;
     margin-top: 35px;
   }
 
 
-  .Bar-R fieldset {
+  .Bar-research fieldset {
     display: flex;
     width: 50px;
     border: none;
   }
   
-  .Bar-R {
+  .Bar-research {
     width: 0;
     text-align: center;
     border-top: 2px solid  #F2F2F2;
     border-bottom: 2px solid #F2F2F2;
   }
   
-  .Bar-R input::placeholder {
+  .Bar-research input::placeholder {
     width: 100%;
     font-weight: 700;
     font-size: larger;
@@ -397,7 +397,7 @@ main {
   }
     
   
-  .Bar-R i:first-child {
+  .Bar-research i:first-child {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -431,7 +431,7 @@ input{
    /****** Bar-Filter ***********/
 
 .filtre-block, .filtre_bar,
-.filtre_bar-B {
+.filtre-Button {
   display: flex;
   gap: 14.88px
 }
@@ -446,10 +446,6 @@ input{
   font-weight: 700;
 }
 
-.filtre_bar-BTN-txt {
-  font-size: 17.92px;
-  font-weight: 700;
-}
 
 .filtre_bar-BTN {
   display: flex;
@@ -458,6 +454,7 @@ input{
   border: 2px solid  #D9D9D9;
   border-radius: 24.96px;
   padding: 0 19px;
+  font-weight: 700;
 }
 
 .filtre_bar i.fa-solid {
@@ -465,12 +462,12 @@ input{
   font-size: 22px;
 }
 
-.filtre-B{
+.filtre-Button{
   display: flex;
   gap: 14.88px
 }
 
-.filtre-B :hover {
+.filtre-Button :hover {
   background-color:  #DEEBFF;
   ;
 }
@@ -478,7 +475,7 @@ input{
 
    /******Section i ***********/
 
-.info {
+.info_sous_filtre{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -486,7 +483,7 @@ input{
     margin-top: 35px;
   }
   
-.info i {
+.info_sous_filtre i {
     display: flex;
     align-items: center;
     flex-shrink: 0;
