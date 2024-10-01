@@ -418,6 +418,7 @@ main {
     border-radius: 0 15px 15px 0;
     background-color: #0065FC;
     border: none;
+    cursor: pointer;
   }
   
   
@@ -455,6 +456,7 @@ input{
   border-radius: 24.96px;
   padding: 0 19px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .filtre_bar i.fa-solid {
@@ -462,15 +464,13 @@ input{
   font-size: 22px;
 }
 
-.filtre-Button{
-  display: flex;
-  gap: 14.88px
+
+
+.filtre_bar-BTN:hover {
+  background-color:  #DEEBFF;
+  
 }
 
-.filtre-Button :hover {
-  background-color:  #DEEBFF;
-  ;
-}
 
 
    /******Section i ***********/
