@@ -108,6 +108,9 @@
     padding-top: 16px;
   }
 
+  .card__content:hover{
+    background-color: #D9D9D9;
+  }
 /****** Hebergements ***********/
 
 .hebergements {
@@ -150,6 +153,8 @@
     display: flex;
     flex-direction: column;
     padding: 0 15px;
+    height: 80px;
+    
   }
   
 
@@ -158,6 +163,7 @@
     display: flex;
     justify-content: space-between;
     height: 14px;
+    margin-top: 8px;
   }
 
 
@@ -166,10 +172,14 @@
   }
 
 
-  .card__rating{
-    padding-top: 11px;
+  .hebergment__card .card__rating{
+    padding-top: 8px;
   }
 
+  .hebergment__card .card__title{
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
 
 
 
@@ -237,6 +247,9 @@
     font-size: 18px;
   }
 
+.populaires .card__title{
+  margin-bottom: 8px;
+}
 
 
 
