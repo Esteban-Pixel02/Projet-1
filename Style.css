@@ -129,7 +129,7 @@
   
 
   .hebergements .card__link {
-    width: calc((1 / 3) * (100% - 60px));
+    width: 251px;
   }
   
 
@@ -216,14 +216,14 @@
 
   .populaires img {
     height: 146px;
-    width: calc(100% / 3);
+    width: 123px;
     border: 0.31rem solid white;
     border-radius: 20px 0 0 20px;
   }
   
 
   .populaires .card__content {
-    width: calc(2 * 100% / 3);
+    width: 246px;
     display: flex;
     flex-direction: column;
     margin: 5px 0;
