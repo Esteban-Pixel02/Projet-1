@@ -485,6 +485,9 @@ span {
   box-shadow: 5px 5px 10px #DADADA;
   overflow: hidden;
   min-width: 120px;
+  max-width: 100%;
+  height: auto;
+  
 }
 
 
@@ -505,6 +508,7 @@ span {
 .activities-card img{
   width: 297px;
   height: 380px;
+  max-width: 100%;
 }
 
 
@@ -544,6 +548,10 @@ footer {
       width: 100%;
   }
 
+  #Logo-Top{
+    margin-left: 3%;
+  }
+
   /* Tablet Search */
   #search {
       width: 100%;
@@ -558,13 +566,16 @@ footer {
   }
 
   #hotel-mostpopular {
-      width: 100%;
+      width: 94%;
       display: flex;
       flex-direction: column;
-      border-radius: 0px;
+      border-radius: 15px;
       padding: 2% 5%;
       margin-bottom: 5%;
       margin-top: 60px;
+      margin-left: 3%;
+      
+      
   }
 
   #popularhotel-title {
@@ -591,9 +602,11 @@ footer {
 
   /* Tablet Hotels Results */
   #hotels-list {
-      width: 100%;
-      border-radius: 15px;
-      padding: 30px;
+    width:94%;
+    border-radius: 15px;
+    margin-left: 3%;
+      
+      
   }
 
   #hotels-list h2,
@@ -790,7 +803,7 @@ footer {
   }
 
   #activities-searchresults h2 {
-    margin: 2% 2% 2% 6%;
+    margin: 2% 2% 2% 8%;
     
    }
 
@@ -798,17 +811,22 @@ footer {
     width: 100%;
     flex-direction: column;
     align-items: center;
-    padding: 0;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .activities-card{
-    width: 403px;
-    height: 180px;
+    width: 100%;
+    height: 210px;
+    max-width: 100%;
+   
+    
   }
 
   #image1,#image2,#image3,#image4{
-    height:120px;
-    width: 403px;
+    width: 611px;
+    height: 80%;
+   
   }
 
   
