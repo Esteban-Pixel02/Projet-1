@@ -49,13 +49,13 @@ h4 {
 
 
 a {
-  text-decoration: none;
-  color: black
+text-decoration: none;
+color: black
 }
 
 
 ul {
-  list-style: none;
+list-style: none;
 }
 
 strong {
@@ -83,12 +83,6 @@ img {
     color: #0065FC;
   }
   
-
-  .fa-xs {
-    line-height: 0;
-  }
-  
-
 
  .card {
     display: flex;
@@ -201,7 +195,6 @@ margin-bottom: 30px;
 }
 
 .fa-map-marker-alt {
-  position: relative;
   left: 0px;
   border-radius: 12px 0px 0px 12px;
   background-color: #F2F2F2;
@@ -210,7 +203,6 @@ margin-bottom: 30px;
 }
 
 #location-input {
-  position: relative;
   right: 2px;
   height: 37px;
   width: 160px;
@@ -225,14 +217,8 @@ margin-bottom: 30px;
   font-weight: 600;
 }
 
-#location-input:focus {
-  height: 35px;
-  background-color: #DEEBFF;
-  outline: 1px solid #0065FC;
-}
 
 #search-desktop {
-  position: relative;
   right: 3px;
   color: #ffffff;
   font-weight: bold;
@@ -361,7 +347,6 @@ margin-bottom: 30px;
 
 .hotel-card {
   width: 30%;
-  min-width: 120px;
   background-color: white;
   padding: 5px;
   margin: 15px 0px;
@@ -440,12 +425,10 @@ font-size: 14px;
   min-width: 33%;
   min-height: 140px;
   height: auto;
-  overflow: hidden;
 }
 
 .popularhotel-img img {
   width: 100%;
-  aspect-ratio: 1/1;
   border-radius: 15px 0px 0px 15px;
 }
 
@@ -484,10 +467,8 @@ span {
   border-radius: 15px;
   box-shadow: 5px 5px 10px #DADADA;
   overflow: hidden;
-  min-width: 120px;
   max-width: 100%;
   height: auto;
-  
 }
 
 
@@ -495,7 +476,6 @@ span {
   height: 50px;
   width: 100%;
   font-size: 16px;
-  vertical-align: middle;
   padding: 10px 10px 15px 15px;
   margin: 0;
 }
@@ -729,18 +709,16 @@ footer {
   }
   
   #search-mobile {
-      display: flex;
-      position: relative;
-      right: 15px;
-      height: 37px;
-      color: #ffffff;
-      background-color: #0065FC;
-      border: none;
-      border-radius: 12px 12px 12px 12px;
-      font-weight: bold;
-      font-size: 16px;
-      padding: 9px 12px 9px 12px;
-      cursor: pointer;
+  display: flex;
+  height: 37px;
+  color: #ffffff;
+  background-color: #0065FC;
+  border: none;
+  border-radius: 12px 12px 12px 12px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 9px 12px 9px 12px;
+  cursor: pointer;
   }
   
   #search-desktop {
