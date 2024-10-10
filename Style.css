@@ -191,7 +191,7 @@ margin-bottom: 30px;
 
 
 
-   /****** Block-Bouton-Research ***********/
+   /****** Block-bouton-recherche ***********/
 
 #Bar-research{
   display: flex;
@@ -226,7 +226,7 @@ margin-bottom: 30px;
 }
 
 #location-input:focus {
-  height: 35.5px;
+  height: 35px;
   background-color: #DEEBFF;
   outline: 1px solid #0065FC;
 }
@@ -251,7 +251,7 @@ margin-bottom: 30px;
 }
 
 
-/* Welcome Filters */
+/* info + Filtre */
 
 #filters {
   display: flex;
@@ -330,7 +330,7 @@ margin-bottom: 30px;
 }
 
 
-/* Hotel Section */
+/* Hotel + populaire Section */
 #hotel-searchresults {
   display: flex;
   justify-content: space-between;
@@ -392,7 +392,7 @@ font-size: 14px;
 
 
 
-/* Most popular Results */
+/* Most populaire */
 #hotel-mostpopular {
   width: 33%;
   background-color: #F2F2F2;
@@ -552,13 +552,13 @@ footer {
     margin-left: 3%;
   }
 
-  /* Tablet Search */
+  /* Tablet recherche */
   #search {
       width: 100%;
       padding: 0% 5%;
   }
 
-  /* Tablet Most Popular */
+  /* Tablet Populaire */
   #hotel-searchresults {
       width: 100%;
       flex-direction: column;
@@ -600,7 +600,7 @@ footer {
   }
 
 
-  /* Tablet Hotels Results */
+  /* Tablet Hotels  */
   #hotels-list {
     width:94%;
     border-radius: 15px;
@@ -626,7 +626,7 @@ footer {
       margin: 2% 0%;
   }
 
-  /* Tablet Activities Results */
+  /* Tablet Activités */
   #activities-searchresults {
     width: 100%;
     justify-content: center;
@@ -716,7 +716,7 @@ footer {
       color: #0065FC;
   }
   
-  /*  Smartphone Search */
+  /*  Smartphone recherche */
   #search {
       width: 100%;
       padding: 0% 5%;
@@ -751,7 +751,7 @@ footer {
       width: 100%;
   }
   
-  /* Smartphone Most Popular */
+  /* Smartphone Populaire */
   #hotel-searchresults {
       width: 100%;
       flex-direction: column-reverse;
@@ -769,7 +769,7 @@ footer {
       margin: 5% 0%;
   }
   
-  /* Smartphones Hotels Results */
+  /* Smartphones Hotels  */
   #hotels-list {
       width: 100%;
       background-color: #ffffff;
@@ -794,7 +794,7 @@ footer {
       margin: 3% 0;
   }
   
-  /* Smartphone Activities Results */
+  /* Smartphone Activités */
   #activities-searchresults {
     width: 100%;
     justify-content: center;
