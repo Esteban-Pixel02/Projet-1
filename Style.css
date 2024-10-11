@@ -69,8 +69,9 @@ font-style: normal;
 }
 
 
-.greystar {
-  color: #d9d9d9;
+.whitestar {
+  color:#F2F2F2;
+  ;
 }
 
 
@@ -271,9 +272,8 @@ margin-bottom: 30px;
 }
 
 .filters-types:hover {
-  background-color: #DEEBFF;
-  border: 2px solid #DEEBFF;
-  cursor: pointer;
+background-color: #DEEBFF;
+cursor: pointer;
 }
 
 
@@ -284,16 +284,15 @@ margin-bottom: 30px;
 }
 
 .filters-icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #0065FC;
-  width: 42px;
-  height: 42px;
-  margin: -2px;
-  border-radius: 50%;
-  
-
+display: flex;
+justify-content: center;
+align-items: center;
+color: #0065FC;
+width: 42px;
+height: 42px;
+margin-right: -10px;
+margin-top: 3px;
+border-radius: 50%;
 }
 
 .searchresults-numbers {
@@ -796,9 +795,7 @@ footer {
   .activities-card{
     width: 100%;
     height: 210px;
-    max-width: 100%;
-   
-    
+    max-width: 100%; 
   }
 
   #image1,#image2,#image3,#image4{
