@@ -11,42 +11,42 @@
 
 
   body {
-    font-family: 'Raleway', sans-serif;
-    max-width: 1440px;
-    margin: auto;
-    width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
+  font-family: 'Raleway', sans-serif;
+  max-width: 1440px;
+  margin: auto;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
   }
 
   #bloc_main{
-    width: 95%;
-    margin: auto;
+  width: 95%;
+  margin: auto;
   }
 
  /* Titles & paragraphs */
 
 h1 {
-  font-size: 22px;
-  font-weight: bold;
-  margin-bottom: 10px;
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 10px;
 }
 
 
 
 h2 {
-  font-size: 22px;
-  font-weight: bold;
+font-size: 22px;
+font-weight: bold;
 }
 
 
 h3 {
-  font-size: 16px;
-  font-weight: bold;
+font-size: 16px;
+font-weight: bold;
 }
 
 h4 {
-  font-size: 18px;
+font-size: 18px;
 }
 
 
@@ -67,61 +67,60 @@ font-style: normal;
 
 
 .bluestar {
-  color: #0065FC;
+color: #0065FC;
 }
 
 
 .whitestar {
-  color:#F2F2F2;
-  ;
+ color:#F2F2F2;
 }
 
 
 img {
-  object-fit: cover;
+object-fit: cover;
 }
 
 
  .fa-solid {
-    color: #0065FC;
+  color: #0065FC;
   }
   
 
  .card {
-    display: flex;
-    border-radius: 22px;
-    background-color: white;
+  display: flex;
+  border-radius: 22px;
+  background-color: white;
   }
   
 
   .card__link {
-    border-radius: 22px;
+  border-radius: 22px;
   }
 
 
   .card__title {
-    font-size: 16px;
-    font-weight: 700;
+  font-size: 16px;
+  font-weight: 700;
   }
   
 
   .card__subtitle {
-    font-size: 14px;
+  font-size: 14px;
   }
   
 
 .euro {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 
 .greystar {
-    color: #F2F2F2
+  color: #F2F2F2
   }
 
 
 .bluestar {
-    color: #0065FC;
+  color: #0065FC;
 }
 
 
@@ -459,7 +458,7 @@ display: flex;
 justify-content: space-between;
 margin-bottom: 50px;
 flex-direction: column;
-margin-left: 33px;
+margin-left: 3px;
 }
 
 #activities-list {
@@ -555,26 +554,26 @@ footer {
 
   /* Tablet Populaire */
   #hotel-searchresults {
-      width: 100%;
-      flex-direction: column;
-      justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
   }
 
   #hotel-mostpopular {
-      width: 94%;
-      display: flex;
-      flex-direction: column;
-      border-radius: 15px;
-      padding: 2% 5%;
-      margin-bottom: 5%;
-      margin-top: 60px;
-      margin-left: 3%;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 2% 5%;
+    margin-bottom: 5%;
+    margin-top: 60px;
+    margin-left: 3%;
       
       
   }
 
   #popularhotel-title {
-      margin: 2% 0%;
+    margin: 2% 0%;
   }
 
   .popularhotel-card {
@@ -583,8 +582,8 @@ footer {
   }
 
   .popularhotel-img {
-      width: 40%;
-      min-width: 40%;
+    width: 40%;
+    min-width: 40%;
   }
 
   #popularhotel-column{
@@ -605,19 +604,19 @@ footer {
 
   #hotels-list h2,
   #hotels-list h4 {
-      width: 100%;
-      margin: 2% 0%;
+    width: 100%;
+    margin: 2% 0%;
   }
 
   #hotels-cardlist {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      padding: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
   }
 
   .hotel-card {
-      margin: 2% 0%;
+    margin: 2% 0%;
   }
 
   /* Tablet Activités */
@@ -677,7 +676,7 @@ footer {
   @media all and (max-width: 767px) {
 
     #blocpage {
-      width: 100%;
+     width: 100%;
   }
 
 
@@ -689,12 +688,12 @@ footer {
   
   /*  Smartphone Header */
   header {
-      height: auto;
-      width: 100%;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin: 5% 0% 10% 0%;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0% 10% 0%;
   }
 
   #Logo-Top{
@@ -702,20 +701,20 @@ footer {
   }
   
   #menu-nav {
-      width: 100%;
-      text-align: center;
+    width: 100%;
+    text-align: center;
   }
   
   #menu-nav a {
-      width: 50%;
-      border-bottom: 2px solid #DADADA;
+    width: 50%;
+    border-bottom: 2px solid #DADADA;
   }
   
   #menu-nav a:hover {
-      border-top: none;
-      padding-top: 30px;
-      border-bottom: 2px solid #0065FC;
-      color: #0065FC;
+    border-top: none;
+    padding-top: 30px;
+    border-bottom: 2px solid #0065FC;
+    color: #0065FC;
   }
   
   /*  Smartphone recherche */
@@ -779,46 +778,46 @@ footer {
   
   /* Smartphone Populaire */
   #hotel-searchresults {
-      width: 100%;
-      flex-direction: column-reverse;
-      justify-content: center;
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
   }
   
   #hotel-mostpopular {
-      width: 100%;
-      border-radius: 0px;
-      padding: 2% 5%;
-      margin-bottom: 5%;
+    width: 100%;
+    border-radius: 0px;
+    padding: 2% 5%;
+    margin-bottom: 5%;
   }
   
   .popularhotel-card {
-      margin: 5% 0%;
-      height: 150px;
+    margin: 5% 0%;
+    height: 150px;
   }
   
   /* Smartphones Hotels  */
   #hotels-list {
-      width: 100%;
-      background-color: #ffffff;
-      border-radius: 0px;
-      padding: 0% 5%;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 0px;
+    padding: 0% 5%;
   }
   
   #hotels-list h2,
   #hotels-list h4 {
-      margin: 2% 2% 2% 2%;
+    margin: 2% 2% 2% 2%;
   }
   
   #hotels-cardlist {
-      width: 100%;
-      flex-direction: column;
-      justify-content: center;
-      padding: 0;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
   }
   
   .hotel-card {
-      width: auto;
-      margin: 3% 0;
+    width: auto;
+    margin: 3% 0;
   }
   
   /* Smartphone Activités */
@@ -863,7 +862,7 @@ footer {
   }
   
   .footer-menu {
-      width: 100%;
+    width: 100%;
   }
    
   }
