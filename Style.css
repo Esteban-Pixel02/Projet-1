@@ -15,6 +15,8 @@
     max-width: 1440px;
     margin: auto;
     width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   #bloc_main{
@@ -219,7 +221,13 @@ margin-bottom: 30px;
 }
 
 
-#search-desktop {
+
+.search-icon {
+  display: none;
+}
+
+
+#btn_search{
   right: 3px;
   color: #ffffff;
   font-weight: bold;
@@ -233,18 +241,19 @@ margin-bottom: 30px;
 }
 
 
-#search-mobile {
-  display: none;
-}
-
-
 /* info + Filtre */
 
 #filters {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.filtrepack{
+display: flex;
+gap: 20px;
+flex-wrap: nowrap;
 }
 
 #filters p {
@@ -446,11 +455,11 @@ span {
   
 /****** Activités ***********/
 #activities-searchresults {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 50px;
-  flex-direction: column;
-  margin-left: 80px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 50px;
+flex-direction: column;
+margin-left: 33px;
 }
 
 #activities-list {
@@ -524,7 +533,7 @@ footer {
 @media all and (min-width: 768px) and (max-width: 1024px) {
 
   #blocpage {
-      width: 100%;
+  width: 100%;
   }
 
   #Logo-Top{
@@ -533,9 +542,16 @@ footer {
 
   /* Tablet recherche */
   #search {
-      width: 100%;
-      padding: 0% 5%;
-  }
+  width: 100%;
+  padding: 0% 5%;
+ }
+
+ #filters-list{
+  width: 100%;
+  flex-wrap: nowrap;
+ }
+
+
 
   /* Tablet Populaire */
   #hotel-searchresults {
@@ -562,9 +578,8 @@ footer {
   }
 
   .popularhotel-card {
-      width: 100%;
-      max-height: 175px;
-      margin: 2% 0%;
+  width: 100%;
+  margin: 2% 0%;
   }
 
   .popularhotel-img {
@@ -611,28 +626,29 @@ footer {
     justify-content: center;
     margin: 0; 
     padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   #activities-searchresults h2 {
-   margin-bottom: 4%;
-   padding-left: 70px;
-   }
+  margin-bottom: 4%;
+  }
 
   #activities-list {
-      height: auto;
-      flex-wrap: wrap;
-      align-content: space-between;
-      justify-content: center;
+  height: auto;
+  width: 100%;
+  align-content: space-between;
+  justify-content: center;
   }
 
   .activities-card{
-    width: 193px;
+    width: 100%;
     height: 270px;
   }
 
   #activities-searchresults img{
-    width: 193px;
-    height: 200px;
+  width: 600px;
+  height: 200px;
   }
 
 
@@ -641,13 +657,13 @@ footer {
 
   /* Tablet Footer */
   footer {
-      width: 100%;
-      padding: 5%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      gap: 6%;
-      padding-top: 20px;
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 6%;
+  padding-top: 20px;
   }
 
   .footer-menu {
@@ -662,6 +678,13 @@ footer {
 
     #blocpage {
       width: 100%;
+  }
+
+
+  body{
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
   }
   
   /*  Smartphone Header */
@@ -697,36 +720,62 @@ footer {
   
   /*  Smartphone recherche */
   #search {
-      width: 100%;
-      padding: 0% 5%;
-  }
+  width: 100%;
+  padding: 0% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Description{
+  text-align: center;
+}
   
   #location-input {
-      width: 90%;
-      min-width: 160px;
-      max-width: 350px;
+  width: 33%;
+  min-width: 160px;
+  max-width: 350px;
   }
   
-  #search-mobile {
+  .search-icon{
   display: flex;
-  height: 37px;
-  color: #ffffff;
-  background-color: #0065FC;
-  border: none;
-  border-radius: 12px 12px 12px 12px;
-  font-weight: bold;
-  font-size: 16px;
-  padding: 9px 12px 9px 12px;
-  cursor: pointer;
-  }
+   }
+  
   
   #search-desktop {
       display: none;
   }
   
   #filters {
-      width: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+  #filters-list{
+    width: 80%;
+    justify-content: center;
   }
+
+
+  #btn_search{
+    display: flex;
+    height: 37px;
+    color: #ffffff;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 12px 12px 12px 12px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 9px 12px 9px 12px;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  #Bar-research{
+    justify-content: center;
+  }
+
+
   
   /* Smartphone Populaire */
   #hotel-searchresults {
@@ -744,6 +793,7 @@ footer {
   
   .popularhotel-card {
       margin: 5% 0%;
+      height: 150px;
   }
   
   /* Smartphones Hotels  */
@@ -798,7 +848,7 @@ footer {
     max-width: 100%; 
   }
 
-  #image1,#image2,#image3,#image4{
+  #img_activités1,#img_activités2,#img_activités3,#img_activités4{
     width: 611px;
     height: 80%;
    
@@ -807,9 +857,9 @@ footer {
   
   /* Smartphone Footer */
   footer {
-      width: 100%;
-      padding: 5%;
-      flex-direction: column;
+  width: 100%;
+  padding: 5%;
+  flex-direction: column;
   }
   
   .footer-menu {

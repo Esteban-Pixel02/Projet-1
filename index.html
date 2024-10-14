@@ -20,8 +20,8 @@
         <header>
           <img src="./Image-Booki/Booki-Logo.png" id="Logo-Top" alt="">
           <nav id="menu-nav">
-              <a  href="Hébergements">Hébergements </a> 
-              <a  href="Activités">Activités </a>
+              <a  href="#hotels-list">Hébergements </a> 
+              <a  href="#activities-searchresults">Activités </a>
           </nav>
         </header>
 
@@ -33,14 +33,13 @@
                <section id="search">
 
                  <div class="Description">
-                   <h1>Trouvez votre hébergement pour des vacances de rêve</h2>
+                   <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                    <p>En plein centre-ville ou en pleine nature</p>
                  </div>
                  <form id="Bar-research">
                    <i class="fas fa-map-marker-alt"></i>
                    <input id="location-input" type="text" value="Marseille, France" />
-                   <button id="search-desktop">Rechercher</button>
-                   <button id="search-mobile"><i class="fas fa-search search-icon"></i></button>
+                   <button id="btn_search"><span id="search-desktop">Rechercher</span><i  class="fas fa-search search-icon"></i></button>
                  </form> 
                   
                  <!-- Filtre -->
@@ -81,7 +80,7 @@
               <div id="hotels-cardlist">
                   <a href="#" class="hotel-card">
                       <article>
-                          <img src="./Image-Booki/fred-kleber.jpg"alt="Hôtel du port" />
+                          <img src="./Image-Booki/fred-kleber.jpg" alt="Hôtel du port" />
                           <h3>Hôtel du port</h3>
                           <p>Nuit à partir de 52<strong>€</strong></p>
                           <p>
@@ -109,8 +108,7 @@
                   </a>
                   <a href="#" class="hotel-card">
                       <article>
-                          <img src="./Image-Booki/reisetopia.jpg"
-                              alt="Hôtel Les mouettes" />
+                          <img src="./Image-Booki/reisetopia.jpg" alt="Hôtel Les mouettes"/>
                           <h3>Hôtel Les mouettes</h3>
                           <p>Nuit à partir de 76<strong>€</strong></p>
                           <p>
@@ -124,8 +122,7 @@
                   </a>
                   <a href="#" class="hotel-card">
                       <article>
-                          <img src="./Image-Booki/annie-spratt.jpg"
-                              alt="Hôtel de la mer" />
+                          <img src="./Image-Booki/annie-spratt.jpg" alt="Hôtel de la mer"/>
                           <h3>Hôtel de la mer</h3>
                           <p>Nuit à partir de 46<strong>€</strong></p>
                           <p>
@@ -139,8 +136,7 @@
                   </a>
                   <a href="#" class="hotel-card">
                       <article>
-                          <img src="./Image-Booki/marcus-loke.jpg"
-                              alt="Auberge La Canebière" />
+                          <img src="./Image-Booki/marcus-loke.jpg" alt="Auberge La Canebière"/>
                           <h3>Auberge La Canebière</h3>
                           <p>Nuit à partir de 25<strong>€</strong></p>
                           <p>
@@ -154,8 +150,7 @@
                   </a>
                   <a href="#" class="hotel-card">
                       <article>
-                          <img src="./Image-Booki/nicate-lee.jpg"
-                              alt="Auberge Le Panier" />
+                          <img src="./Image-Booki/nicate-lee.jpg" alt="Auberge Le Panier"/>
                           <h3>Auberge Le Panier</h3>
                           <p>Nuit à partir de 23<strong>€</strong></p>
                           <p>
@@ -181,8 +176,7 @@
                 <a href="#">
                     <article class="popularhotel-card">
                         <div class="popularhotel-img">
-                            <img src="./Image-Booki/emile-guillemot.jpg"
-                                alt="Hôtel Le soleil du matin" />
+                            <img src="./Image-Booki/emile-guillemot.jpg" alt="Hôtel Le soleil du matin" />
                         </div>
                         <div class="popularhotel-text">
                             <div class="popularhotel-text-up">
@@ -202,8 +196,7 @@
                 <a href="#">
                     <article class="popularhotel-card">
                         <div class="popularhotel-img">
-                            <img src="./Image-Booki/aw-creative.jpg"
-                                alt="Chambre d'hôtes Au cœur de l'eau" />
+                            <img src="./Image-Booki/aw-creative.jpg" alt="Chambre d'hôtes Au cœur de l'eau" />
                         </div>
                         <div class="popularhotel-text">
                             <div class="popularhotel-text-up">
@@ -223,8 +216,7 @@
                 <a href="#">
                     <article class="popularhotel-card">
                         <div class="popularhotel-img">
-                            <img src="./Image-Booki/febrian-zakaria.jpg"
-                                alt="Hôtel Tout Bleu et Blanc" />
+                            <img src="./Image-Booki/febrian-zakaria.jpg" alt="Hôtel Tout Bleu et Blanc"/>
                         </div>
                         <div class="popularhotel-text">
                             <div class="popularhotel-text-up">
@@ -253,15 +245,13 @@
             
             <a href="#">
                 <article class="activities-card">
-                    <img src="./Image-Booki/reno-laithienne.jpg" id="image1"
-                         alt="Vieux Port"/>
+                    <img src="./Image-Booki/reno-laithienne.jpg" alt="Vieux Port" id="img_activités1"/>
                     <h3>Vieux Port</h3>
                </article>
             </a>
             <a href="#">
                 <article class="activities-card">
-                    <img src="./Image-Booki/paul-hermann.jpg" id="image2"
-                         alt="Fort de Pomègues" />
+                    <img src="./Image-Booki/paul-hermann.jpg" alt="Fort de Pomègues" id="img_activités2"/>
                     <h3>Fort de Pomègues</h3>
                 </article>
             </a>
@@ -269,15 +259,13 @@
             
             <a href="#">
                 <article class="activities-card">
-                    <img src="./Image-Booki/kilyan-sockalingum.jpg" id="image3"
-                         alt="Parc national des Calanques" />
+                    <img src="./Image-Booki/kilyan-sockalingum.jpg" alt="Parc national des Calanques" id="img_activités3"/>
                      <h3>Parc national des Calanques</h3>
                 </article>
             </a>
            <a href="#">
                 <article class="activities-card">
-                    <img src="./Image-Booki/florian-wehde.jpg" id="image4"
-                         alt="Notre-Dame-de-la-Garde" />
+                    <img src="./Image-Booki/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde" id="img_activités4"/>
                     <h3>Notre-Dame-de-la-Garde</h3>
                 </article>
             </a>
