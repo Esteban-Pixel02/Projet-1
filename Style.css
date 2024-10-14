@@ -459,14 +459,16 @@ justify-content: space-between;
 margin-bottom: 50px;
 flex-direction: column;
 margin-left: 3px;
+padding-left: 33px;
 }
 
 #activities-list {
-  display: flex;
-  width: 100%;
-  height: auto;
-  padding-top: 20px;
-  gap: 30px;
+display: flex;
+width: 100%;
+height: auto;
+padding-top: 20px;
+gap: 30px;
+ 
 }
 
 .activities-card {
